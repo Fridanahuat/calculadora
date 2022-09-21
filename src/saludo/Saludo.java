@@ -5,7 +5,9 @@
  */
 package saludo;
 
-import java.awt.BorderLayout;
+import javax.swing.JOptionPane;
+
+
 
 /**
  *
@@ -18,6 +20,7 @@ public class Saludo {
      */
     public static void main(String[] args) {
         System.out.println("Soy el LICENCIADO Quiterio");
+        JOptionPane.showMessageDialog(null, "mi nombre es jesus jonas");
     }
     
 }
